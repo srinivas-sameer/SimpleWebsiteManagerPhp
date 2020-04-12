@@ -39,6 +39,7 @@ pre {
   padding: 20px;
   margin: 10px;
   border: 2px solid black;
+  text-align: center;
 }
 .article:hover
 {
@@ -54,6 +55,7 @@ pre {
   color:black;
   background-color: #fdd809;
   padding: 10px;
+  
 }
 .article>a:hover
 {
@@ -61,6 +63,7 @@ pre {
   color:white;
   background-color: black;
   padding: 10px;
+
 }
 .article>p
 {
@@ -68,4 +71,13 @@ pre {
   padding: 20px;
   margin: 10px;
   color:white;
+}
+.article>h1
+{
+  -webkit-text-size-adjust:80%;
+  padding: 5px;
+  margin: -10px;
+  color:black;
+  background-color: #fdd809;
+  font-size: 0.9em;
 }
