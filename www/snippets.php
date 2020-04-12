@@ -14,20 +14,27 @@ $dir = "/articles/";
 $a=scandir("articles/");
 
 
-echo $path;
 
-for($i=2;$i<strlen("$a");$i++)
+// strlen and mb_strlen not giving correct o/p. hence had to use this hack.
+for($i=2;$i<9999;$i++)
 {
+	if($a[$i]=="")
+{
+	break;
+}
+
 	$path= "articles/$a[$i]";
 	echo "<div class = article>";
 echo "<p>".substr($a[$i], 0,strlen($a[$i])-5)."</p>";
 echo '<a href="' . $path . '">'."Go to Article".'</a>';
 echo "</div>";
-if($i%4==0)
+	if($i%2==0)
 	{
-		echo '<br>';	
+		echo "<br>";
 	}
 }
+	
+
 
 ?>
 <!--
