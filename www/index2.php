@@ -1,5 +1,5 @@
 <?php include "header/header.html" ?>
-<?php include "banner/banner.php" ?>
+<?php include "articles/article1.html" ?>
 <?php include "footer/footer.html" ?>
 
 <html>
