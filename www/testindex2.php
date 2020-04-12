@@ -1,5 +1,6 @@
+
 <?php include "header/header.html" ?>
-<?php include "articles/article1.html" ?>
+<?php include "articles/article2.html" ?>
 <?php include "footer/footer.html" ?>
 
 <html>
