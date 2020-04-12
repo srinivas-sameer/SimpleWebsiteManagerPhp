@@ -11,3 +11,4 @@ Upcoming features:
 2. Contact us mailto page.
 3. Dynamic retrieval of recent articles and most viewed articles and display on home page(will be a separate module which can be put in any page).
 4. Search functionality.
+5. Database connectivity (MySQL)
