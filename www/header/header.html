@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
 
-
+<head>
 <div class ="header">
-	\
-<ul>\
+	
+<ul>
 	<li class="logo"><a href="index.php"><img src="images/header/mmlogo.png" height=50px width=250px  alt= "Misplaced Minds"></a></li>
 	<li><a href="snippets.php"> Code Snippets</a></li>
 	<li><a href=""> Tutorials</a></li>
@@ -13,7 +14,9 @@
 	<li><a href=""> Contact</a></li>	
 </ul>
 </div>
-
+</head>
+<body>
+</body>
 </html>
 <!--  Inline CSS Used for easy access of different parts -->
 <style>
@@ -47,7 +50,13 @@ li>a>img
 	position : relative;
 	
 }
-
+@media only screen and (max-width: 600px) {
+  .header>ul>li 
+{
+	display: block;
+	padding: 20px;
+}
+}
 
 
 </style>

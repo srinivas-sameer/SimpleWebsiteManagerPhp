@@ -4,7 +4,7 @@
 generatePage($fileName);
 function generatePage($fileName)
 {
-	$str=substr($fileName, 0,strlen($fileName)-4)."php";
+	$str='Zarticle='.substr($fileName, 0,strlen($fileName)-4)."php";
 	//echo $str;
 	$file=fopen($str, "w");
 $lines = '<?php include "header/header.html" ?>'.'<?php include "'.'articles/'.$fileName.'" ?>'.'<?php include "footer/footer.html" ?>';

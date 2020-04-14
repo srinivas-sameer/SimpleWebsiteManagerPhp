@@ -5,6 +5,7 @@ How to use:
 1. Just add the plain html files (without any styling) in the articles folder.
 2. You can see all the articles in the code snippets page.
 3. When the code snippets page is opened, new php links are generated and assigned automatically.
+4. All the temporary files start with Zarticle (for easy deletion) and will be in the root folder - They will be generated every time the page is opened.
 
 Current functionalities:
 1. Header and Footer has inline css which can be modified separately while the base article css is in style.css file. Modifying the style.css file properties will effect all the article pages.
