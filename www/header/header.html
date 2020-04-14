@@ -7,11 +7,12 @@
 <div class ="header">
 	
 <ul>
-	<li class="logo"><a href="index.php"><img src="images/header/mmlogo.png" height=50px width=250px  alt= "Misplaced Minds"></a></li>
+	<li class="logo"><a href="index.php"><img src="images/header/mmlogo.png" height=80px width=80px  alt= "Misplaced Minds"></a></li>
 	<li><a href="snippets.php"> Code Snippets</a></li>
 	<li><a href=""> Tutorials</a></li>
-	<li><a href=""> Search</a></li>
-	<li><a href=""> Contact</a></li>	
+	<li><a href="search.php"> Search</a></li>
+	<li><a href="contact.php"> Contact</a></li>	
+	<li><a href="pageMaker.php"> Admin Tools</a></li>	
 </ul>
 </div>
 </head>
@@ -23,7 +24,7 @@
 .header
 {
 	background-color: black;
-	padding: 20px;
+	padding: 1px;
 }
 
 .header>ul>li 
@@ -43,9 +44,15 @@
 	background-color: #fdd809;
 	color:black;
 }
+.header>ul>li:nth-child(1)>a
+{
+	padding: 0px;
+	background-color: black;
+
+}
 li>a>img
 {
-	margin-left: -20px;
+	margin-left: 0px;
 	margin-bottom:  -20px;
 	position : relative;
 	
@@ -53,9 +60,25 @@ li>a>img
 @media only screen and (max-width: 600px) {
   .header>ul>li 
 {
+	margin-left: 25%;
 	display: block;
 	padding: 20px;
+	
 }
+
+.header>ul>li:nth-child(1)>a
+{
+	margin-left: 10%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .header>ul>li 
+{
+	margin-left: 25%;
+	display: block;
+	padding: 20px;
+	
 }
 
 
