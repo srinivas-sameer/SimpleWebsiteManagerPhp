@@ -1,0 +1,62 @@
+.header
+{
+	background-color: black;
+	padding: 1px;
+}
+
+.header>ul>li 
+{
+	display: inline-block;
+	padding: 20px;
+}
+.header>ul>li>a
+{
+	text-decoration: none;
+	color: white;
+	font-family: ubuntu;
+	padding: 20px;
+}
+.header>ul>li>a:hover
+{
+	background-color: #fdd809;
+	color:black;
+}
+.header>ul>li:nth-child(1)>a
+{
+	padding: 0px;
+	background-color: black;
+
+}
+li>a>img
+{
+	margin-left: 0px;
+	margin-bottom:  -20px;
+	position : relative;
+	
+}
+@media only screen and (max-width: 600px) {
+  .header>ul>li 
+{
+	margin-left: 25%;
+	display: block;
+	padding: 20px;
+	
+}
+
+.header>ul>li:nth-child(1)>a
+{
+	margin-left: 10%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .header>ul>li 
+{
+	margin-left: 25%;
+	display: block;
+	padding: 20px;
+	
+}
+}
+
+
